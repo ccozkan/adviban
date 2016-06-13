@@ -1,0 +1,8 @@
+function [] = rotunb (M,c,k,m,e,w)
+  
+  X=m*e*w^2/(sqrt((k-M*w^2)^2+(c*w)^2))
+  PHI=atan(c*w/(k-M*w^2))
+  zeta=c/(2*sqrt(k*M));
+  r_m=1/(sqrt(1-2*zeta^2))
+  
+endfunction
