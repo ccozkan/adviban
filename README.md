@@ -1,6 +1,6 @@
 #adviban
 --Advanced Vibration Analysis Toolbox for Octave and probably for matlab.--
-#information
+###information
   
   *I'm creating this toolbox for my Advanced Vibration Analysis Class and it will contain usefull functions and scripts for that are covered in class.
   
