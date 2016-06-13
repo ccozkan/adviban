@@ -1,0 +1,11 @@
+function [rms] = rms (varargin)
+  
+  rmsq=0;
+  n=length(varargin);
+  X=cell2mat(varargin);
+  
+  for i=1:1:n
+    rmsq=X(i)^2+rmsq;
+  endfor
+  rms=sqrt(1/n*rmsq);
+  endfunction
