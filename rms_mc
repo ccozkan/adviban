@@ -1,6 +1,6 @@
 function [rms] = rms_mc (X, n)
     
-  if (exist("n", "var") == 1)
+  if (exist("n", "var") == 0)
     n=length(X);
   endif
   
