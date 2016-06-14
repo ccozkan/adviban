@@ -1,0 +1,13 @@
+function [rms] = rms_mc (X, n)
+    
+  if (exist("n", "var") == 1)
+    n=length(X);
+  endif
+  
+  rmsq=0;
+  for i=1:1:n
+    rmsq=X(i)^2+rmsq;
+  endfor
+  rms=sqrt(1/n*rmsq);
+
+endfunction
