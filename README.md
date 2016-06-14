@@ -15,6 +15,9 @@
 ##rms
 
   root mean square function for arbitrary number of given values.
+  
+##rms_mc
+  matlab compatible version of rms. Also dimension can be limited in this version.
 
 ##rotunb
    
