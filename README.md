@@ -17,7 +17,10 @@
   root mean square function for arbitrary number of given values.
   
 ##rms_mc
-  matlab compatible version of rms. Also dimension can be limited in this version.
+  matlab syntax ompatible version of rms. Also dimension can be limited in this version.
+  
+##rssq
+  matlab syntax compatible root-of-sum-squares function. Dimension can be limited.
 
 ##rotunb
    
