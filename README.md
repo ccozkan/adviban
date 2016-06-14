@@ -23,7 +23,7 @@
   matlab syntax compatible root-of-sum-squares function. Dimension can be limited.
 
 ##rotunb
-   
+   function that gives the amplitude, the phase angle of vibration and w/wn=r value so that MX/me is maxed in exchange of inputs of M,m,e,c,k,w.
  
 
   
