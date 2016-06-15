@@ -4,10 +4,10 @@ function [rms] = rms_mc (X, n)
     n=length(X);
   endif
   
-  rmsq=0;
+  temp=0;
   for i=1:1:n
-    rmsq=X(i)^2+rmsq;
+    temp=X(i)^2+temp;
   endfor
-  rms=sqrt(1/n*rmsq);
+  rms=sqrt(1/n*temp);
 
 endfunction
