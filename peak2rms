@@ -1,0 +1,12 @@
+function [peak2rms] = peak2rms (X, n)
+  if (exist("n", "var") == 0)
+    n=length(X);
+  endif
+  
+  temp=0;
+  for i=1:1:n
+    temp=abs(X(i))^2+temp;
+  endfor
+  peak2rms=norm(X,inf)/sqrt((1/n)*temp);
+
+endfunction
