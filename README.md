@@ -1,6 +1,6 @@
 #adviban
 --Advanced Vibration Analysis Toolbox for Octave and probably for matlab.--
-#####information
+####information
   
   *I'm creating this toolbox for my Advanced Vibration Analysis Class and it will contain usefull functions and scripts for that are covered in class.
   
@@ -23,6 +23,7 @@
   matlab syntax compatible root-of-sum-squares function. Dimension can be limited.
   
 ##peak2rms
+  matlab syntax compatible peak2rms function. dimension can be limited. returns the ratio of the largest absolute value in the root-mean-square (RMS) value of input.
 
 ##rotunb
    function that gives the amplitude, the phase angle of vibration and w/wn=r value so that MX/me is maxed in exchange of inputs of M,m,e,c,k,w.
