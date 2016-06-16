@@ -24,6 +24,9 @@
   
 ##peak2rms
   matlab syntax compatible peak2rms function. dimension can be limited. returns the ratio of the largest absolute value in the root-mean-square (RMS) value of input.
+  
+##peak2peak
+  matlab syntax compatible peak2peak function. dimension can be limited. returns the difference between max and min values of x.
 
 ##rotunb
    function that gives the amplitude, the phase angle of vibration and w/wn=r value so that MX/me is maxed in exchange of inputs of M,m,e,c,k,w.
